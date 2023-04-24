@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumwebdriver.webauto">
+      <class name="seleniumwebdriver.staticdropdown">
         <methods>
-          <include name="login"/>
-          <include name="setup"/>
+          <include name="selectmethod"/>
         </methods>
-      </class> <!-- seleniumwebdriver.webauto -->
+      </class> <!-- seleniumwebdriver.staticdropdown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

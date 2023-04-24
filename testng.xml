@@ -3,12 +3,15 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="testclass.takeScreenShot"/>
       <class name="testclass.autosuggest_DropdownTest"/>
       <class name="testclass.calender_currentdateSelectTest"/>
-      <class name="testclass.calender_AnydateSelectTest"/>
       <class name="testclass.popup"/>
-      <class name="testclass.staticDrodown_test"/>
+      <class name="testclass.calender_AnydateSelectTest"/>
+      <class name="testclass.wordfile"/>
+      <class name="testclass.windowHandle"/>
       <class name="testclass.mouseActions"/>
+      <class name="testclass.staticDrodown_test"/>
       <class name="testclass.scroll_drag_drop"/>
     </classes>
   </test> <!-- Test -->
